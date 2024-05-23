@@ -10,7 +10,6 @@ def group_anagrams(strs):
     
     return list(anagram_dict.values())
 
-# Example usage
 strings = ["eat", "tea", "tan", "ate", "nat", "bat"]
 anagrams = group_anagrams(strings)
 print(anagrams)
